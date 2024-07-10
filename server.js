@@ -3,15 +3,6 @@ const mongoose = require('mongoose')
 const ShortUrl = require('./models/shortUrl')
 const app = express()
 
-
-let value;
-if (variableA !== null && variableA !== undefined) {
-  value = variableA;
-} else {
-  value = 'default value';
-}
-
-
 mongoose.connect('mongodb://localhost/urlShortener', {
     // useNewUrlParser: true, useUnifiedTopology: true
 }) 
