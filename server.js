@@ -3,9 +3,6 @@ const mongoose = require('mongoose')
 const ShortUrl = require('./models/shortUrl')
 const app = express()
 
-let value = variableA ?? 'default value';
-
-// can be rewritten as
 
 let value;
 if (variableA !== null && variableA !== undefined) {
