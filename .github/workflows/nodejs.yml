@@ -13,10 +13,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Setup Node.js (v14)
+      - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'  # Explicitly specifies Node.js version 14
+          node-version: '20.10.0'
 
       - name: Install dependencies
         run: npm install
