@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build  # Replace with your build script if needed
+        run: npm run devStart  # Replace with your build script if needed
 
       - name: Start the server
         run: npm start
